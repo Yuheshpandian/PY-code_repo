@@ -21,21 +21,17 @@ def decode(text):
     else:
         return "invalid message,cant able to decode"       
     return x
-
     
-#uncomment the next comment to encrypt a message  
-          
+#uncomment the next comment to encrypt a message         
 """
 text=input("enter the sentence or message you need to code:")
 text=code(text)
 print(text)
 """
-
-
 #uncomment the next comment to encrypt a message
-
 """
 text=input("enter the sentence or message you need to decode:")
 text=decode(text)
 print(text)
 """ 
+#thankyou 
