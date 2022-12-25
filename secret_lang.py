@@ -17,7 +17,9 @@ def decode(text):
     for val in text.lower():
         for key,value in lang.items():
             if val==value:
-                x+=key     
+                x+=key 
+    else:
+        return "invalid message,cant able to decode"       
     return x
 
     
